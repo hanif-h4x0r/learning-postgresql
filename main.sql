@@ -1,2 +1,2 @@
 CREATE TABLE IF NOT EXISTS hanif(id SERIAL PRIMARY KEY, name TEXT, age INTEGER);
-INSERT INTO hanif(name, age) VALUES ('Hanif', 20), ('Yunita', 19);
+INSERT INTO hanif IF NOT EXISTS(name, age) VALUES ('Hanif', 20), ('Yunita', 19);
